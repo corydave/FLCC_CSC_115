@@ -24,7 +24,7 @@ public class BlowYerMind { // Cool name, bro!
         // PRIMITIVE DATA TYPES (PDT)
         int mphOverTheSpeedLimit = 3; // int is an INTEGER (whole number)
         double bankAccountBalance = 2.53; // double is a DECIMAL
-        boolean readyForPS5; // boolean can be 'true' or 'false'
+        boolean readyForPS5 = false; // boolean can be 'true' or 'false'
         char playAgain = 'y'; // char can be ONE letter/number/special character
 
         /* DEFAULTS
@@ -89,12 +89,34 @@ public class BlowYerMind { // Cool name, bro!
         System.out.println(2 + 3 / 1.0 * age);
         System.out.println(2 + 3 / (age * 1.0));
         
+        // System.out.println(5/0);
         
+        if (bankAccountBalance > 700) {
+            readyForPS5 = true;
+            // System.out.println(5/0);
+        } else {
+            System.out.println("Not enough for a PS5 ☹️");
+        }
 
 
+        if (readyForPS5 == true) {
+            // do some code to start the transaction
+        }
 
+        System.out.println(playAgain);
+        System.out.println('y');
+        System.out.println("'y'");
+        System.out.println("Sharks with \"laser beams\".");
+        System.out.println("I want to output a \\");
+        System.out.println("\\\\\\\\\\\\\\\\\\\\\\");
 
+        System.out.println("y" + "z");
+        System.out.println('y' + 'z');
 
+        char dw1 = 'y';
+        char dw2 = 'z';
+
+        System.out.println("" + dw1 + dw2);
 
 
 
@@ -108,23 +130,14 @@ public class BlowYerMind { // Cool name, bro!
 
 
         // The following line indicates all the code executed
-        System.out.println("\n\nGAME OVER MAN!\n\n");
+        System.out.println("\n\n\n\n\nGAME OVER MAN!\n\n");
 
     }
 
     // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    // SLOC = source lines of code
-    
 
+    // https://www.asciitable.com/
+
+    
 
 }
