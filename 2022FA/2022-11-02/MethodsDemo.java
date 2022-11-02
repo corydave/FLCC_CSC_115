@@ -29,6 +29,8 @@ public class MethodsDemo {
 
     // METHOD OVERLOADING
     // Two methods with the same name but different parameters
+    // String's substring, for instance
+    // Math's max, for instance
     public static void divideNumbers(double a, double b) {
         System.out.println(a/b);
     }    
