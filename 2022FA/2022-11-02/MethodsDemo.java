@@ -16,6 +16,10 @@ public class MethodsDemo {
         int num2 = 5;
         divideNumbers(num1, num2);
 
+        double num3 = 10;
+        double num4 = 3;
+
+        divideNumbers(num3, num4);
 
     }
 
@@ -23,7 +27,12 @@ public class MethodsDemo {
         System.out.println(a/b);
     }
 
-    
+    // METHOD OVERLOADING
+    // Two methods with the same name but different parameters
+    public static void divideNumbers(double a, double b) {
+        System.out.println(a/b);
+    }    
+
     public static void getRandomNumber(int num) {
         System.out.println("Your number is " + num + ".");
         System.out.println("NUM = " + num);
