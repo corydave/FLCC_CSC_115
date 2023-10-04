@@ -57,6 +57,8 @@ public class RandomChars {
         char digit = (char)(random.nextInt(10) + 48);
 
         // But Java 17 has a random.nextInt(start, end) method that lets you build a range!
+        // ...sadly, we don't have Java 17 in this class. So you can't use the easy way of
+        // generating random numbers in a specified range :(
         // int number = random.nextInt(65, 91);
 
         System.out.println("Uppercase = " + uppercaseLetter);
