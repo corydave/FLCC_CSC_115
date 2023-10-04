@@ -56,6 +56,9 @@ public class RandomChars {
         char lowercaseLetter = (char)(random.nextInt(26) + 97);
         char digit = (char)(random.nextInt(10) + 48);
 
+        // But Java 17 has a random.nextInt(start, end) method that lets you build a range!
+        // int number = random.nextInt(65, 91);
+
         System.out.println("Uppercase = " + uppercaseLetter);
         System.out.println("Lowercase = " + lowercaseLetter);
         System.out.println("Digit = " + digit);
