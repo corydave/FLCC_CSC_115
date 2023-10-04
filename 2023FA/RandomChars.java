@@ -52,6 +52,9 @@ public class RandomChars {
 
         System.out.println("RANDOM:");
         
+        // ASCII table:
+        // https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html
+
         char uppercaseLetter = (char)(random.nextInt(26) + 65);
         char lowercaseLetter = (char)(random.nextInt(26) + 97);
         char digit = (char)(random.nextInt(10) + 48);
