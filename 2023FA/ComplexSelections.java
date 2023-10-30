@@ -111,7 +111,7 @@ public class ComplexSelections  {
 
             case "Dylan": System.out.println("WIN 10");
                            break; 
-                           
+
             default: System.out.println("WIN 11")                                ;
         }
 
@@ -134,7 +134,7 @@ public class ComplexSelections  {
             System.out.println("WIN");
         }
 
-        if (davesAge >= 50 && 4/0 > 1) {
+        if   (davesAge >= 50) && (4/0 > 1)) {
             System.out.println("WIN 2");
         }
         // Short circuit evaluation
